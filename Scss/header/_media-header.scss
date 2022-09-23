@@ -1,0 +1,135 @@
+/* SITE-HEADER RESPONSIVE */
+@media screen and (max-width: 1250px) {
+  .site-header__container {
+    justify-content: space-between;
+  }
+
+  .sitenav {
+    margin-left: 0;
+  }
+
+  .site-header__btn {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .sitenav {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .logo-img {
+    width: 89px;
+    height: 45px;
+  }
+
+  .sitenav__link {
+    font-size: $f-16;
+    line-height: $f-24;
+  }
+
+  .site-header__btn {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 40px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .sitenav {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .close-btn {
+    display: block;
+    margin-left: auto;
+  }
+
+  .site-header {
+    position: relative;
+  }
+
+  .sitenav-wrapper {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+  }
+  
+  .sitenav {
+    height: 100vh;
+  }
+
+  .sitenav-wrapper--open {
+    display: block;
+  }
+
+  .sitenav__list {
+    flex-direction: column;
+    background-color: $white;
+    width: 60%;
+    height: 100%;
+    padding-top: 20px;
+  }
+
+  .sitenav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 35px;
+    width: 100%;
+  }
+
+  .sitenav__link {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  .site-header__btn {
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+    top: 400px;
+    width: calc(60% - 30px);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .toggle-btn__img {
+    width: 42px;
+    height: 24px;
+  }
+
+  .sitenav__list {
+    width: 80%;
+  }
+
+  .site-header__btn {
+    width: calc(80% - 40px)
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo-img {
+    width: 71px;
+    height: 36px;
+  }
+
+  .toggle-btn__img {
+    width: 33px;
+    height: 19px;
+  }
+}
+
+/* /SITE-HEADER RESPONSIVE */

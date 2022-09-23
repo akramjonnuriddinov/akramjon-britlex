@@ -1,0 +1,138 @@
+@media screen and (max-width: 1240px) {
+  .hero__container {
+    background-position: calc(0% + 350px) 145px;
+    background-size: 58px 58px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 64px;
+    max-width: 290px;
+    margin-bottom: 27px;
+  }
+
+  .hero__text {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 430px;
+    margin-bottom: 33px;
+  }
+
+  .hero__btn {
+    padding: 22px 78px;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .hero__img {
+    width: 460px;
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .hero__container {
+    background-position: calc(0% + 300px) 145px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .hero__container {
+    background-position: calc(0% + 250px) 80px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 25px;
+    max-width: 217px;
+  }
+
+  .hero__text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 350px;
+    margin-bottom: 32px;
+  }
+
+  .hero__btn {
+    padding: 19px 67px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .hero__img {
+    width: 352px;
+    height: 352px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .hero__container {
+    background-image: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__img {
+    order: -1;
+    width: 424px;
+    height: 424px;
+    margin-bottom: 17px;
+  }
+
+  .hero__inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__title {
+    max-width: 100%;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 26px;
+  }
+
+  .hero__text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 37px;
+  }
+
+  .hero__btn {
+    padding: 24px 102px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .hero__img {
+    width: 299px;
+    height: 299px;
+    margin-bottom: 16px;
+  }
+
+  .hero__title {
+    font-size: $f-24;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .hero__text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 35px;
+  }
+
+  .hero__btn {
+    width: 100%;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: $f-16;
+    line-height: $f-24;
+  }
+}
