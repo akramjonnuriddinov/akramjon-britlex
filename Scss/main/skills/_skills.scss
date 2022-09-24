@@ -1,0 +1,149 @@
+.bg-gray {
+  background-color: $gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skills {
+  padding-top: 103px;
+  padding-bottom: 252px;
+
+  .main-btn {
+    margin-top: auto;
+  }
+}
+
+.skills__title {
+  text-align: center;
+  color: $black;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 92px;
+}
+
+.card-wrapper {
+  display: flex;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 80px;
+  color: $accent-color;
+  margin-top: 0;
+}
+
+.card-text {
+  margin-top: 0;
+}
+
+.card-btn {
+  padding: 15px 52px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+/* CARD 1 */
+.card-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 435px;
+  width: 100%;
+  padding: 35px 22px 92px 23px;
+  margin-right: 18px;
+}
+
+.card-item__img {
+  margin-bottom: 4px;
+}
+
+.card__item-title {
+  margin-bottom: 5px;
+}
+
+.card__item-text {
+  margin-bottom: 36px;
+}
+
+.card-three {
+  max-width: 885px;
+  width: 100%;
+}
+
+.card-second {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* CARD 2 */
+.card-second div:first-child {
+  padding: 0 19px 44px 41px;
+  margin-right: 18px;
+  max-width: 434px;
+  width: 100%;
+}
+
+.card-second__title {
+  margin-bottom: 96px;
+}
+
+.card-second__text {
+  display: none;
+}
+
+/* CARD 3 */
+.card-second div:last-child {
+  padding: 9px 29px 44px 43px;
+  max-width: 435px;
+  width: 100%;
+}
+
+.card-second__item-title {
+  margin-bottom: 0;
+}
+
+.card-second__item-text {
+  margin-bottom: 35px;
+}
+/* CARD-4 */
+.card-last {
+  padding: 43px 25px 44px 44px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 885px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.card-last__inner {
+  max-width: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .main-btn {
+    display: inline-block;
+  }
+}
+
+.card-last-second__title {
+  margin-bottom: 0;
+}
+
+.card-last-second__text {
+  margin-bottom: 25px;
+}
+
+.skills img {
+  width: 100%;
+  max-width: auto;
+  object-fit: contain;
+}
