@@ -23,20 +23,24 @@
   }
 
   .card-btn {
-    padding: 16px 41px 19px 41px;
+    padding: 16px 41px 19px 26px;
     font-size: 18px;
     line-height: 27px;
   }
 
-  /* CARD-1 */
   .card-item {
+    padding-bottom: 20px;
+  }
+
+  /* CARD-1 */
+  .card-second div:first-child {
     margin-right: 13px;
-    padding: 0 21px 52px 22px;
+    padding: 0 21px 20px 26px;
   }
 
   /* CARD-2 */
   .card-second__item {
-    padding: 5px 10px 30px 29px;
+    padding: 5px 10px 20px 26px;
     margin-right: 12px;
   }
 
@@ -46,12 +50,13 @@
 
   /* CARD-3 */
   .card-second div:last-child {
-    padding: 16px 38px 32px 0;
+    padding: 16px 38px 20px 26px;
   }
 
   /* CARD-4 */
   .card-last {
-    padding: 0 18px 34px 29px;
+    padding: 0 18px 20px 26px;
+    align-items: flex-end;
   }
 }
 
@@ -91,18 +96,18 @@
 
   /* CARD-2 */
   .card-second__item {
-    padding: 14px 24px 27px 3px;
+    padding: 14px 24px 27px 15px;
     margin-right: 7px;
   }
 
   /* CARD-3 */
   .card-second div:last-child {
-    padding: 34px 14px 28px 10px;
+    padding: 34px 14px 28px 15px;
   }
 
   /* CARD-4 */
   .card-last {
-    padding: 0 0 17px 21px;
+    padding: 0 0 17px 15px;
   }
 }
 
@@ -155,5 +160,8 @@
 
   .skills img {
     order: -2;
+  }
+  .card-last {
+    align-items: flex-start;
   }
 }
