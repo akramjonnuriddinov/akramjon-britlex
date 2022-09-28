@@ -597,6 +597,12 @@ body {
      object-fit: contain;
 }
 
+@media screen and (max-width: 1140px) {
+  .card-last__img.card-last__img {
+    width: 300px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 1000px) {
   .skills {
     padding-top: 47px;
@@ -690,6 +696,15 @@ body {
     padding: 0 0 17px 15px;
   }
 }
+@media screen and (max-width: 750px) {
+  .card-last {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-last__img {
+    order: -1;
+  }
+}
 @media screen and (max-width: 690px) {
   .card-wrapper {
     align-items: flex-start;
@@ -700,6 +715,16 @@ body {
   .card-second__item {
     margin-right: 0;
     margin-bottom: 34px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .card-last__img.card-last__img {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .card-last__img.card-last__img {
+    width: 200px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -734,6 +759,11 @@ body {
   }
   .card-last {
     align-items: flex-start;
+  }
+  .card-last__img.card-last__img {
+    width: 253px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .about-us__container {
